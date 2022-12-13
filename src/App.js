@@ -1,26 +1,18 @@
 import React from 'react'
-import Button from './components/buttons/Button'
+import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
-      
-<Button/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<div>Home</div> } />
+          <Route path="/blogs" element={<div>hello</div>} />
+          <Route path="/aboutus" element={<div>bye</div>} />
 
-<Button/>
-
-<Button/>
-
-<Button/>
-
-<Button/>
-
-<Button/>
-
-<Button/>
-
-
-    </div>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

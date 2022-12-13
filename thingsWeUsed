@@ -19,3 +19,5 @@ create-react-app
 -build subtotal component
 -build login page
 -deploy the app live on firebase
+
+install react-router-dom
